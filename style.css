@@ -1,0 +1,241 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h2{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #DDDDDD;
+	margin-right: 200px;
+}
+small {
+	color: #b69877;
+}
+small a, p a{
+		color: #ddd;
+		text-decoration:none;
+}
+/* header */
+header {
+	background: #5b264e;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: 'Righteous', cursive;
+}
+.menu {
+	list-style: none;
+	font-weight : bold;
+}
+.menu li{
+	float: left;
+	padding-right: 25px;
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #000000;
+}
+	
+/* Content */
+.page1 {
+	background-image: url(assets/img/1.jpg);
+	background-size:100% 100%;
+}
+.page2 {
+	background-image: url(assets/img/prambanan.jpg);
+	background-size:100% 100%;
+}
+.page3 {
+	background-image: url(assets/img/ratuboko.jpg);
+	background-size:100% 100%;
+}
+.page4 {
+	background-image: url(assets/img/sambisari.jpg);
+	background-size:100% 100%;
+}
+.page5 {
+	background-image: url(assets/img/monjali.jpg);
+	background-size:100% 100%;
+}
+.page6 {
+	background-image: url(assets/img/mgm.jpg);
+	background-size:100% 100%;
+}
+.page7 {
+	background-image: url(assets/img/kaliurang.jpg);
+	background-size:100% 100%;
+}
+	
+.one {
+}
+.one .page-container {
+	color: white;
+	border-radius:20px;
+	position: absolute;
+	bottom: 100px;
+	margin-left:-400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+
+.one .page-container h2{
+	font-size: 3em;
+}
+.one .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+
+.two {
+	background-color: #b69877;
+}
+.two .page-container {
+	border-radius:20px;
+	color: white;
+	position: absolute;
+	bottom: 100px;
+	margin-left:-400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+.two .page-container h2 {
+	font-size: 3em;
+}
+.two .page-container p{
+	padding : 20px 0;
+	line-height: 1.5em;
+}
+.three {
+	background-color: #036564;
+}
+.three .page-container {
+	border-radius:20px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+.three .page-container h2{
+	font-size: 3em;
+}
+.three .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.four {
+	background-color: #036564;
+}
+.four .page-container {
+	border-radius:20px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+.four .page-container h2{
+	font-size: 3em;
+}
+.four .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.five {
+	background-color: #036564;
+}
+.five .page-container {
+	border-radius:20px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+.five .page-container h2{
+	font-size: 3em;
+}
+.five .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.six {
+	background-color: #036564;
+}
+.six .page-container {
+	border-radius:20px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+.six .page-container h2{
+	font-size: 3em;
+}
+.six .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.seven {
+	background-color: #036564;
+}
+.seven .page-container {
+	border-radius:20px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	max-width: 650px;
+}
+.seven .page-container h2{
+	font-size: 3em;
+}
+.seven .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
